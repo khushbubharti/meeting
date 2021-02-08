@@ -1,0 +1,29 @@
+
+
+
+import React from 'react';
+import Flex from '../Flex';
+import { Label } from './';
+import LabelDocs from './Label.mdx';
+
+export default {
+  title: 'UI Components/Label',
+  parameters: {
+    docs: {
+      page: LabelDocs.parameters.docs.page().props.children.type,
+    },
+  },
+  component: Label,
+};
+
+export const BasicLabel = () => {
+  return (
+    <Flex layout="fill-space-centered">
+      <Label>Hello world</Label>
+    </Flex>
+  );
+};
+
+BasicLabel.story = {
+  name: 'Basic Label',
+};
