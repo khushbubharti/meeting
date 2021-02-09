@@ -5,7 +5,7 @@
 const compression = require('compression');
 const fs = require('fs');
 const url = require('url');
-const uuid = require('uuid/v4');
+const { uuid } = require('uuidv4');
 const AWS = require('aws-sdk');
 /* eslint-enable */
 

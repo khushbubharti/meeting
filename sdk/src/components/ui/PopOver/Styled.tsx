@@ -80,27 +80,27 @@ export const StyledPopOverItem = styled.li`
   }
 `;
 
-export const StyledSubMenu = styled(StyledPopOverItem)`
-  > span {
-    width: 100%;
-    height: 100%;
-    display: block;
-    height: 2rem;
-  }
+// export const StyledSubMenu = styled(StyledPopOverItem)`
+//   > span {
+//     width: 100%;
+//     height: 100%;
+//     display: block;
+//     height: 2rem;
+//   }
 
-  > button {
-    position: relative;
-  }
+//   > button {
+//     position: relative;
+//   }
 
-  .ch-caret {
-    position: absolute;
-    width: 1.5rem;
-    height: 1.5rem;
-    right: 0;
-    color: inherit;
-    fill: inherit;
-  }
-`;
+//   .ch-caret {
+//     position: absolute;
+//     width: 1.5rem;
+//     height: 1.5rem;
+//     right: 0;
+//     color: inherit;
+//     fill: inherit;
+//   }
+// `;
 
 export const StyledPopOverHeader = styled.header`
   border-bottom: 0.0625rem solid ${(props) => props.theme.popOver.separator};
